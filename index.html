@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="black">
 
 <head>
     <meta charset="UTF-8">
@@ -37,6 +37,145 @@
 </head>
 
 <body class="manrope">
+
+    <header class="container mx-auto px-5 lg:px-16  py-5">
+        <!-- NavBar -->
+        <nav class="mb-12">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            <li><a class="hover:text-red-600 duration-300 ease-in-out">Home</a></li>
+                            <li><a class="hover:text-red-600 duration-300 ease-in-out">About</a></li>
+                            <li><a class="hover:text-red-600 duration-300 ease-in-out">Pages</a></li>
+                            <li><a class="hover:text-red-600 duration-300 ease-in-out">Blog</a></li>
+                            <li><a class="hover:text-red-600 duration-300 ease-in-out">Contact</a></li>
+                        </ul>
+                    </div>
+                    <a class="text-4xl font-extrabold text-red-600">Hockey<span class="text-white">'</span>s</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1 text-lg font-light text-[#d3d3de]">
+                        <li><a class="hover:text-red-600 duration-300 ease-in-out">Home</a></li>
+                        <li><a class="hover:text-red-600 duration-300 ease-in-out">About</a></li>
+                        <li><a class="hover:text-red-600 duration-300 ease-in-out">Pages</a></li>
+                        <li><a class="hover:text-red-600 duration-300 ease-in-out">Blog</a></li>
+                        <li><a class="hover:text-red-600 duration-300 ease-in-out">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <p class="mr-6 text-xl hidden lg:block"><i class="fa-solid fa-magnifying-glass"></i></p>
+                    <a class="btn btn-error rounded-lg text-lg text-white font-[700]">Get Ticket</a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Banner Section (Carousel) -->
+        <div class="lg:mb-12">
+            <div class="carousel w-full relative">
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img src="Images/1.png" class="w-full" />
+                    <div class="absolute top-[70%]  lg:top-[88%] left-[2%] flex justify-between gap-4">
+                        <a href="#slide4" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div
+                class="w-full lg:w-1/2 md:w-1/2 p-4 lg:p-8 bg-[#131318] rounded-2xl lg:absolute mt-4 lg:top-[80%] lg:left-[43%]">
+                <h3 class="text-2xl font-bold text-red-600 mb-4">Meet all the heroes from the field</h3>
+                <p class="text-lg font-light text-[#d3d3de]">Dit amet consectetur. Condimentum dignissim adipiscing
+                    aliquam turpis placerat dolor. Purus urna in
+                    sit nullam proin. </p>
+            </div>
+        </div>
+
+
+    </header>
+
+    <main class="container mx-auto px-5 lg:px-16 py-5">
+
+        <!-- Professional Hockey Club Section -->
+        <section>
+
+            <div class="w-full mx-auto py-8 text-center border-dashed border-y-2 border-red-600 mb-12">
+                <h3 class="text-3xl lg:text-4xl font-bold text-red-600 mb-6">Professional Hockeys Club</h3>
+                <p class="text-l font-light text-[#d3d3de]">Dit amet consectetur. Condimentum dignissim adipiscing
+                    aliquam turpis placerat dolor. Purus urna in
+                    sit nullam proin. </p>
+            </div>
+
+            <!-- Stat Container -->
+            <div class="grid grid-cols-1 lg:grid-cols-4 lg:gap-y-5">
+                <div class="card bg-black w-full lg:w-96 md:w-96 shadow-xl  text-center">
+                    <div class="radial-progress text-red-700 mx-auto mt-5" style="--value:87;" role="progressbar">87%
+                    </div>
+                    <div class="card-body">
+                        <h2 class="text-xl font-medium text-red-600">Prayer Facility</h2>
+                        <p class="text-l font-light text-[#d3d3de]">Amet consectetur. Condimentum <br> dignissim
+                            adipiscing.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Stat 2 -->
+                <div class="card bg-black w-full lg:w-96 md:w-96 shadow-xl  text-center">
+                    <div class="radial-progress text-[#36f19a] mx-auto mt-5" style="--value:95;" role="progressbar">95%
+                    </div>
+                    <div class="card-body">
+                        <h2 class="text-xl font-medium text-red-600">Experience Coach</h2>
+                        <p class="text-l font-light text-[#d3d3de]">Amet consectetur. Condimentum <br> dignissim
+                            adipiscing.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Stat 3 -->
+                <div class="card bg-black w-full lg:w-96 md:w-96 shadow-xl  text-center">
+                    <div class="radial-progress text-[#f7aa36] mx-auto mt-5" style="--value:90;" role="progressbar">90%
+                    </div>
+                    <div class="card-body">
+                        <h2 class="text-xl font-medium text-red-600">Senior Player</h2>
+                        <p class="text-l font-light text-[#d3d3de]">Amet consectetur. Condimentum <br> dignissim
+                            adipiscing.
+                        </p>
+                    </div>
+                </div>
+
+
+                <!-- Stat 4 -->
+                <div class="card bg-black w-full lg:w-96 md:w-96 shadow-xl text-center">
+                    <div class="radial-progress text-[#3984f5] mx-auto mt-5" style="--value:80;" role="progressbar">80%
+                    </div>
+                    <div class="card-body">
+                        <h2 class="text-xl font-medium text-red-600">Training Ground</h2>
+                        <p class="text-l font-light text-[#d3d3de]">Amet consectetur. Condimentum <br> dignissim
+                            adipiscing.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+
+    </main>
+
+    <footer>
+
+    </footer>
 
 </body>
 
